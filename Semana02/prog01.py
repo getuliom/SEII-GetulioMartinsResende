@@ -1,2 +1,3 @@
-#Print Welcome Message
-print('Hello world')
+message="Hello World"
+
+print(len(message))
