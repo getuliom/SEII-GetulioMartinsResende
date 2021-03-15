@@ -1,3 +1,3 @@
 message="Hello World"
 
-print(message[:5])
+print(message[6:])
