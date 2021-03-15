@@ -1,3 +1,3 @@
 message="Hello World"
 
-print(message.count('Hello'))
+print(message.count('l'))
