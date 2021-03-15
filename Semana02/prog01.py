@@ -1,3 +1,4 @@
 message="Hello World"
 
-print(message.find('Universe'))
+message=message.replace('World','Universe')
+print(message)
