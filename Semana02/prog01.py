@@ -1,4 +1,5 @@
-message="Hello World"
+greeting='Hello'
+name='Michael'
 
-message=message.replace('World','Universe')
+message=greeting + ', '+name+'. Welcome!'
 print(message)
