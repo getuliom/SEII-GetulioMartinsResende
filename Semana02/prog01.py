@@ -1,3 +1,3 @@
 message="Hello World"
 
-print(message.upper())
+print(message.count('Hello'))
