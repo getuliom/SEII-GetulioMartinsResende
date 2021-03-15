@@ -1,5 +1,5 @@
 greeting='Hello'
 name='Michael'
 
-message=greeting + ', '+name+'. Welcome!'
+message = '{}, {}. Welcome'.format(greeting,name)
 print(message)
