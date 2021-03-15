@@ -1,5 +1,5 @@
 greeting='Hello'
 name='Michael'
 
-message = f'{greeting}, {name}. Welcome'
+message = f'{greeting}, {name.upper()}. Welcome'
 print(message)
