@@ -1,3 +1,1 @@
-num=1
-num*=10
-print(num)
+print(abs(-3))
