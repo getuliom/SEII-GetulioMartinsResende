@@ -11,8 +11,6 @@ def is_leap(year):
 def days_in_month(year, month):
     """Return number of days in that month in that year."""
 
-    # year 2017
-    # month 2
     if not 1 <= month <= 12:
         return 'Invalid Month'
 
@@ -20,5 +18,3 @@ def days_in_month(year, month):
         return 29
 
     return month_days[month]
-
-print(days_in_month(2017, 2))
