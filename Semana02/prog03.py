@@ -1,3 +1,3 @@
 courses =['History','Math','Physics','CompSci']
 
-print(couses[3])
+print(couses[-1])
