@@ -4,6 +4,9 @@ import pandas as pd
 
 x=[0,1,2,3,4]
 y=[0,2,4,6,8]
+
+#resize graph
+plt.figure(figsize=(5,3),dpi=300)
 #plt.plot(x,y,label='2x',color='red',linewidth=2,marker='.',linestyle='--',markersize=10,markeredgecolor='blue')
 # Use shorthand notation
 #fmt='[color][marker][line]'
