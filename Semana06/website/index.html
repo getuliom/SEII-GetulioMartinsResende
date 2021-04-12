@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Meu site</title>
+  </head>
+
+  <body>
+
+      <header>
+        <nav class="navbar navbar-light bg-dark">
+          <div>
+            <img class="rounded-circle mr-3 " width="70" height="70" src="images/27423081.jpeg" href="avatar">
+            <a class="navbar-brand text-white" href="#">Site do Getúlio :D</a>
+          </div>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="">Home</a>
+            </li> 
+            <li class="nav-item" >
+              <a class="nav-link text-white" href="https://github.com/getuliom">Github profile</a>
+            </li>
+            <li class="nav-item">
+          </ul>  
+          </nav>
+      </header>
+
+      <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://source.unsplash.com/1400x500/?tractor" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://source.unsplash.com/1400x500/?cyberpunk2077" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://source.unsplash.com/1400x500/?soviet" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          </button>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-dark text-center my-3">
+              <h1>Blockchain API</h1>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-sm-6 my-3 text-center">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Quanto está custando um Bitcoin em Reais?</h5>
+                  <script src="script.js"></script>
+                  <p>
+                     R$ : <span id="value"></span></br> E subindo!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 my-3 text-center">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Quanto está custando um Real em Bitcoin?</h5>
+                  <script src="script.js"></script>
+                  <p>
+                    BTC : <span id="tobrl"></span></br>
+                    Sim! Apenas <span id="sats"></span> Satoshis
+                 </p>
+                </div>
+              </div>
+            </div>
+          </div>         
+          
+      </section>
+
+
+      <footer>
+        <div class="container-fluid bg-dark p-5">
+          <div class="row">
+            <div class="col-sm-12 text-white text-center">
+              <p class="mb-0">Desenvolvido por Getúlio Martins Resende :D</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
